@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: vendingmachine.service.VendingMachineServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec <<< FAILURE!
+vendingmachine.service.VendingMachineServiceImplTest.testLoadItemsInStock()  Time elapsed: 0.034 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Test Items loaded from the file. ==> expected: <{8=christina.venmachineweek3.dto.Items@5d658da7}> but was: <{1=christina.venmachineweek3.dto.Items@5fb21a7, 2=christina.venmachineweek3.dto.Items@207ecd2c, 3=christina.venmachineweek3.dto.Items@a91ca641, 4=christina.venmachineweek3.dto.Items@571a9745, 5=christina.venmachineweek3.dto.Items@f3c749b7, 6=christina.venmachineweek3.dto.Items@dfa93040, 7=christina.venmachineweek3.dto.Items@7ae3ee6a, 8=christina.venmachineweek3.dto.Items@73425375, 9=christina.venmachineweek3.dto.Items@2010ab72, 10=christina.venmachineweek3.dto.Items@4c3cc4a8}>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1135)
+	at vendingmachine.service.VendingMachineServiceImplTest.testLoadItemsInStock(VendingMachineServiceImplTest.java:48)
+
+vendingmachine.service.VendingMachineServiceImplTest.testGetChosenItem()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Check bothe Items equal. ==> expected: <christina.venmachineweek3.dto.Items@5d658da7> but was: <christina.venmachineweek3.dto.Items@5fb21a7>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1135)
+	at vendingmachine.service.VendingMachineServiceImplTest.testGetChosenItem(VendingMachineServiceImplTest.java:63)
+
